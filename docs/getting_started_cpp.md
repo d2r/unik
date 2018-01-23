@@ -36,7 +36,7 @@ Ensure that each of the following are installed
     * With the Host-Only Network selected, Click the edit button (screwdriver image)
     * In the **Adapter** tab, note the IPv4 address and netmask of the adapter.
     * In the **DHCP Server** tab, check the **Enable Server** box
-    * Set **Server Address** an IP on the same subnet as the Adapter IP. For example, if the adapter IP is `192.168.100.1`, make set the DHCP server IP as `192.168.100.X`, where X is a number between 2-254.
+    * Set **Server Address** an IP on the same subnet as the Adapter IP. For example, if the adapter IP is `192.168.100.1`, set the DHCP server IP as `192.168.100.X`, where X is a number between 2-254.
     * Set **Server Mask** to the netmask you just noted
     * Set **Upper / Lower Address Bound** to a range of IPs on the same subnet. We recommend using the range `X-254` where X is one higher than the IP you used for the DHCP server itself. E.g., if your DHCP server is `192.168.100.2`, you can set the lower and upper bounds to `192.168.100.3` and `192.168.100.254`, respectively.
 
